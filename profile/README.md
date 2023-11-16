@@ -15,6 +15,7 @@ The automatic charging sequence is divided into 3 phases:
 
 The GPS coordinates of the charging pad will be saved prior to initiating the charge sequence. During this process, images will be captured periodically to look for the target. If the target is spotted, the drone will shift into phase 2. The gimbal position for the forward camera will be 15 degrees below horizontal.
 
+- [ ] We must be able to automatically fly the drone to GPS coordinates
 - [ ] We must find a way to gather images from the camera
 - [x] We must create a method to identify the target in the image
 

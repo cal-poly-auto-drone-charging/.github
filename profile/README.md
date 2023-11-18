@@ -16,14 +16,14 @@ The automatic charging sequence is divided into 3 phases:
 The GPS coordinates of the charging pad will be saved prior to initiating the charge sequence. During this process, images will be captured periodically to look for the target. If the target is spotted, the drone will shift into phase 2. The gimbal position for the forward camera will be 15 degrees below horizontal.
 
 - [ ] We must be able to automatically fly the drone to GPS coordinates
-- [ ] We must find a way to gather images from the camera
+- [x] We must find a way to gather images from the camera
 - [x] We must create a method to identify the target in the image
 
 ### Phase 2: Visual Target Spotting and Navigation
 
 The drone will search for the target visually, and if targets are spotted it will attempt to navigate to an altitude of 20 feet, keeping the QR code near the center-bottom of the image.
 
-- [ ] We must find a way to gather images from the front camera
+- [x] We must find a way to gather images from the front camera
 - [x] We must create a method to identify the corner points of the target in the image
 - [ ] We must implement a search strategy to investigate potential targets, check targetsm and continue searching
 - [ ] Using the points in the image, the focal length, and the gimbal pitch, we must find the cylindrical position of the QR code relative to the drone (OpenCV PnP?)

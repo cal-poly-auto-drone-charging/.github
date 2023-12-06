@@ -26,7 +26,7 @@ The drone will search for the target visually, and if targets are spotted it wil
 - [x] We must find a way to gather images from the front camera
 - [x] We must create a method to identify the corner points of the target in the image
 - [ ] We must implement a search strategy to investigate potential targets, check targetsm and continue searching
-- [ ] Using the points in the image, the focal length, and the gimbal pitch, we must find the cylindrical position of the QR code relative to the drone (OpenCV PnP?)
+- [x] Using the points in the image, the focal length, and the gimbal pitch, we must find the cylindrical position of the QR code relative to the drone
 - [ ] With the cylindrical coordinates, navigate to the desired location before shifting to pahse 3.
 
 ### Phase 3: Orientation and Landing
